@@ -19,10 +19,10 @@ function onDeviceReady() {
     //});
 var div = document.getElementById('splash');
 
-setTimeout(function() {
-    div.style.display = 'none';
-    //$('#splash').hide(slow);
-}, 3000);
+//setTimeout(function() {
+//    div.style.display = 'none';
+//    //$('#splash').hide(slow);
+//}, 3000);
    
 
 
