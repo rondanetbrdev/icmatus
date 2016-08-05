@@ -1,7 +1,82 @@
+document.addEventListener("deviceready", onDeviceReady, false);
+
+////// onDeviceReady START
+function onDeviceReady() {
+  window.open = cordova.InAppBrowser.open;
+
+
+
+//document.querySelector('.btn_link').addEventListener('touchend', loadVideo1,false);
+
+//document.querySelector('#btn_video').addEventListener('touchend', loadVideo1,false);
+
+//document.querySelector('#btn_link').addEventListener('touchend', loadLink1,false);
+
+//document.querySelector('#btn_img').addEventListener('touchend', loadImg1,false);
+
+    //$('#btn_video').on('click', function(){
+    //    loadVideo1();
+    //});
+var div = document.getElementById('splash');
+
+setTimeout(function() {
+    div.style.display = 'none';
+    //$('#splash').hide(slow);
+}, 3000);
+   
+
+
+}
+
+////// onDeviceReady END
+
+
+///// FUNCTIONS
+
+
+  
+function abrirIndex() {
+  javascript:location.reload();
+  div.style.display = 'none';
+}
+
+
+function openExternalFile(elem) {
+    //window.open(elem.href, "_system")
+    console.log('Acesso externo');
+    var ref = cordova.InAppBrowser.open(elem.href, '_blank', 'location=no');
+    return false;
+}
+
+function openExternalLink(elem) {
+    //window.open(elem.href, "_system")
+    console.log('Acesso externo');
+    var ref = cordova.InAppBrowser.open(elem.href, '_system', 'location=no');
+    return false;
+}
+
+
+
+
+
+
+
+
+
+//open('file:/storage/sdcard/DCIM/Camera/1404177327783.jpg', success, error);
+
+
+
+
+// APP SCRIPTS ###########################################
+
+
 // FRAMEWORK 7 ###########################################
 
 // Initialize your app
 var myApp = new Framework7();
+
+
 
 // Export selectors engine
 var $$ = Dom7;
@@ -49,19 +124,11 @@ function createContentPage() {
 	return;
 }
 
+// 1 Slide Per View, 50px Between
+var mySwiper = $$('.swiper-container')[0].swiper;
+
+// Now you can use all slider methods like
+mySwiper.slideNext();
 
 // #######################################################
-
-document.addEventListener("deviceready", onDeviceReady, false);
-
-// onDeviceReady START
-function onDeviceReady() { 
-    window.open = cordova.InAppBrowser.open;
-}
-// onDeviceReady END
-
-
-// APP SCRIPTS ###########################################
-
-
 
