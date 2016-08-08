@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="br.net.ronda.icmatus" version="1.0.3" versionCode="3">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="br.net.ronda.icmatus" version="1.0.4" versionCode="4">
   <name>ICMatus</name>
   <description>Instituto Carlos Matus</description>
   <author href="http://www.ronda.net.br" email="ronaldo@ronda.net.br">rondanetbr</author>
@@ -18,21 +18,30 @@
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="7"/>
   <preference name="android-installLocation" value="auto"/>
-  <gap:plugin name="org.apache.cordova.battery-status"/>
-  <gap:plugin name="org.apache.cordova.camera"/>
-  <gap:plugin name="org.apache.cordova.media-capture"/>
-  <gap:plugin name="org.apache.cordova.console"/>
-  <gap:plugin name="org.apache.cordova.contacts"/>
-  <gap:plugin name="org.apache.cordova.device"/>
-  <gap:plugin name="org.apache.cordova.device-motion"/>
-  <gap:plugin name="org.apache.cordova.device-orientation"/>
-  <gap:plugin name="org.apache.cordova.dialogs"/>
-  <gap:plugin name="org.apache.cordova.geolocation"/>
-  <gap:plugin name="org.apache.cordova.inappbrowser"/>
-  <gap:plugin name="org.apache.cordova.media"/>
-  <gap:plugin name="org.apache.cordova.network-information"/>
-  <gap:plugin name="org.apache.cordova.splashscreen"/>
-  <gap:plugin name="org.apache.cordova.vibration"/>
+  <plugin name="cordova-plugin-camera"/>
+  <plugin name="cordova-plugin-media-capture"/>
+  <plugin name="cordova-plugin-console"/>
+  <plugin name="cordova-plugin-contacts"/>
+  <plugin name="cordova-plugin-device"/>
+  <plugin name="cordova-plugin-device-motion"/>
+  <plugin name="cordova-plugin-device-orientation"/>
+  <plugin name="cordova-plugin-dialogs"/>
+  <plugin name="cordova-plugin-file"/>
+  <plugin name="cordova-plugin-file-transfer"/>
+  <plugin name="cordova-plugin-geolocation"/>
+  <plugin name="cordova-plugin-globalization"/>
+  <plugin name="cordova-plugin-inappbrowser"/>
+  <plugin name="cordova-plugin-media"/>
+  <plugin name="cordova-plugin-network-information"/>
+  <plugin name="cordova-plugin-splashscreen"/>
+  <plugin name="cordova-plugin-vibration"/>
+  <plugin name="cordova-plugin-whitelist" spec="1" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <allow-intent href="tel:*" />
+  <allow-intent href="sms:*" />
+  <allow-intent href="mailto:*" />
+  <allow-intent href="geo:*" />
 
   <icon src="icon.png"/>
   <splash src="splash.png"/>
