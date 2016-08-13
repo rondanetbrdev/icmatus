@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="br.net.ronda.icmatus" version="1.0.4" versionCode="4">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="br.net.ronda.icmatus" version="1.0.5" versionCode="5">
   <name>ICMatus</name>
   <description>Instituto Carlos Matus</description>
   <author href="http://www.ronda.net.br" email="ronaldo@ronda.net.br">rondanetbr</author>
@@ -18,6 +18,8 @@
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="7"/>
   <preference name="android-installLocation" value="auto"/>
+  <gap:platform name="ios" />
+  <gap:platform name="android" />
   <plugin name="cordova-plugin-camera"/>
   <plugin name="cordova-plugin-media-capture"/>
   <plugin name="cordova-plugin-console"/>
@@ -67,6 +69,5 @@
   <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960"/>
   <gap:splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" gap:platform="ios" width="640" height="1136"/>
   <gap:splash src="res/screen/ios/screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024"/>
-  <gap:splash src="res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768"/>
   <access origin="*"/>
 </widget>
