@@ -35,28 +35,28 @@
             <div class="list-block">
               <ul>
                 <li>
-                  <a href="index.html" class="item-link item-content close-panel">
+                  <a href="#tabInicio" class="tab-link item-content close-panel">
                     <div class="item-inner">
                       <div class="item-title">In&iacute;cio</div>
                     </div>
                   </a>
                 </li>
                 <li>
-                  <a href="icmatus.html" class="item-link item-content close-panel">
+                  <a href="#tabIcmatus" class="tab-link item-content close-panel">
                     <div class="item-inner">
                       <div class="item-title">ICMatus</div>
                     </div>
                   </a>
                 </li>
                 <li>
-                  <a href="equipe.html" class="item-link item-content close-panel">
+                  <a href="#tabEquipe" class="tab-link item-content close-panel">
                     <div class="item-inner">
                       <div class="item-title">Equipe</div>
                     </div>
                   </a>
                 </li>
                 <li>
-                  <a href="livros.html" class="item-link item-content close-panel">
+                  <a href="#tabLivros" class="tab-link item-content close-panel">
                     <div class="item-inner">
                       <div class="item-title">Livros</div>
                     </div>
@@ -89,30 +89,23 @@
 
 
 
-      <div class="views"> <!-- Views start-->
-        <!-- Your main view, should have "view-main" class-->
-        <div class="view view-main"> <!-- View-main start-->
-
-
-
-          <div class="navbar"> <!-- Top Navbar start -->
-            <div class="navbar-inner">
-              <!-- We have home navbar without left link-->
-              <div class="center sliding">In&iacute;cio</div>
-              <div class="right">
-
-              </div>
-            </div>
-          </div>  <!-- Top Navbar end -->
-
-
-          <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
-          <div class="pages navbar-through toolbar-through">
-
-            <!-- Page, data-page contains page name-->
-            <div data-page="index" class="page">
-              <!-- Scrollable page content-->
-              <div class="page-content" >
+ 
+<!-- TABS start -->
+ 
+<!-- Tabs, now tabs wrapper is "views" -->
+<div class="views tabs toolbar-fixed">
+        
+  <!-- Tab Noticias - View 1, active by default -->
+  <div id="tabInicio" class="view tab active">
+    <div class="navbar" style="background-color: #f6f6f6">
+      <div class="navbar-inner">
+        <div class="center">In&iacute;cio</div>
+      </div>
+    </div>
+    <div class="pages navbar-fixed">
+      <div data-page="home-1" class="page">
+        
+      <div class="page-content" >
 
 
                 <!-- NOVIDADES START -->
@@ -133,8 +126,10 @@
 <p  style="text-align: center">ofertado&nbsp;pela Universidade de S&atilde;o Caetano do Sul e Instituto Carlos Matus.</p></div>
                   </div>
                   <div class="card-footer" style="border-top: 1px solid #A69E88">
+                    <a href="#tabPosgraduacao" class="tab-link button button-big button-round" style="width: 100%; margin: 16px 0">Mais detalhes</a>
 
-                  <span style="text-align: center; font-size:18px; font-weight: 700"><a href="posgraduacao.html"><i class="fa fa-plus-square" aria-hidden="true"></i> Mais detalhes</a></span>
+                  
+                  
                   </div>
                 </div>
                 <!-- NOVIDADES END -->
@@ -247,37 +242,547 @@
                 <!-- TEXTO 1 END -->
 
 
+              </div>  
+        
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <!-- Tab Agenda - View 2 -->
+  <div id="tabIcmatus" class="view tab">
+    <div class="navbar" style="background-color: #fff">
+      <div class="navbar-inner">
+        <div class="center">ICMatus</div>
+      </div>
+    </div>
+    <div class="pages navbar-fixed">
+      <div data-page="home-2" class="page">
+          
+          
+          <div class="page-content">
+      <div class="content-block">
+        <div class="content-block-inner">
+
+          <!-- CARD INICIO START -->
+          <img src="img/icmatus_logo.png" style="width:100%" />
+
+          <!-- CARD INICIO END -->
+
+          <!-- CARD 1 START -->
+          <div class="card" style="background-color:#FAE777">
+            <div class="card-content">
+              <div class="card-content-inner" style="color:#333; font-size:18px; font-weight:700; text-align:center">
+                <p>O Instituto Carlos Matus nasce com o expertise de mais de 20 anos de trabalho desenvolvidos pela equipe da Strategia Consultores no Brasil e Am&eacute;rica Latina e faz parte de uma rede Latino Americana de organiza&ccedil;&otilde;es especializadas em Ci&ecirc;ncias e T&eacute;cnicas de Governo.</p>
               </div>
             </div>
-
           </div>
+          <!-- CARD 1 END -->
+
+          <p style="padding:0 10px;">Nosso maior objetivo &eacute; poder contribuir para a melhoria dos processos de governo e dire&ccedil;&atilde;o estrat&eacute;gica de governos, partidos pol&iacute;ticos e universidades, visando o fortalecimento da democracia.</p>
+
+          <p style="padding:0 10px;">
+          Trabalhamos primordialmente com:
+          <ul>
+            <li>Entidades governamentais de car&aacute;ter internacional, nacional, regional e local;</li>
+            <li>Empresas e Organiza&ccedil;&otilde;es de car&aacute;ter internacional, nacional, regional e local;</li>
+            <li>Partidos pol&iacute;ticos;</li>
+            <li>Associa&ccedil;&otilde;es e Organiza&ccedil;&otilde;es comunit&aacute;rias;</li>
+            <li>Universidades;</li>
+            <li>Entidades n&atilde;o governamentais com fins sociais;</li>
+            <li>Entidades privadas com fins sociais.</li>
+            </ul>
+          </p>
+
+  <!-- CARD 2 START -->
+      <div class="card" style="background-color:#E9E9E9">
+        <div class="card-content">
+          <div class="card-content-inner" style="color:#333; font-size:14px; font-weight:700; text-align:leftr">
+            <p>Acreditamos que nossas equipes multidisciplinares, por oferecerem diferentes perspectivas sobre um tema ou problema, podem encontrar a melhor solu&ccedil;&atilde;o para os nossos clientes.</p>
+
+            <p>Muitos parceiros e consultores nacionais e internacionais em Ci&ecirc;ncias e T&eacute;cnicas de Governo, foram formados por Carlos Matus e desenvolveram sua metodologia por meio de in&uacute;meros casos reais e as levaram tamb&eacute;m ao mundo digital globalizado que forma nossa rede mundial atual.</p>
+
+            <p>O Instituto Carlos Matus &eacute; representante exclusivo da Fundaci&oacute;n Altadir no Brasil e base
+            do futuro sistema de forma&ccedil;&atilde;o e certifica&ccedil;&atilde;o em PES e C&amp;T,G e Escuta Inteligente da Internet.</p>
+          </div>
+        </div>
+      </div>
+  <!-- CARD 2 END -->
+
+  <!-- CARD 3 START -->
+      <div style="background-color:#fff; padding:10px 0">
+        <div class="card-content">
+          <div class="card-content-inner" style="color:#333; text-align:left">
+            <img src="img/carlosmatus.jpg" style="width:100%" />
+            <h2 style="text-align:center">Carlos Tulio Matus Romo</h2>
+
+            <p>Nasceu no Chile em 1931. Formou-se, em 1955 na Escola de Economia da Universidade do Chile, fez p&otilde;s-gradua&ccedil;&atilde;o em Harvard nos EUA. Desempenhou altas fun&ccedil;&otilde;es como ministro da Fazenda, presidente do Banco Central e Ministro da Economia do Governo do Presidente Salvador Allende. No campo da pol&iacute;tica e gest&atilde;o p&uacute;blica &eacute; reconhecido como o mais importante pensador latino americano e um dos mais importantes do mundo, em Ci&ecirc;ncias e T&eacute;cnicas de Governo, inovando a forma de governar e fazer pol&iacute;tica.</p>
+          </div>
+        </div>
+      </div>
+  <!-- CARD 3 END -->
+  
 
 
-          <!-- Bottom Toolbar-->
-          <div class="toolbar tabbar tabbar-labels" style="background-color:#fff">
-            <div class="toolbar-inner">
-                <a href="index.html" class="link" id="btn_index">
-                    <i class="icon fa fa-home" style="font-size: 22px"></i>
-                    <span class="tabbar-label" style="font-size: 14px">In&iacute;cio</span>
-                </a>
-                <a href="icmatus.html" class="link"  id="btn_icmatus">
-                    <i class="icon fa fa-institution" style="font-size: 22px"></i>
-                    <span class="tabbar-label" style="font-size: 14px">ICMatus</span>
-                </a>
-                <a href="equipe.html" class="link"  id="btn_equipe">
-                    <i class="icon fa fa-users" style="font-size: 22px"></i>
-                    <span class="tabbar-label" style="font-size: 14px">Equipe</span>
-                </a>
-                <a href="livros.html" class="link"  id="btn_livros">
-                    <i class="icon fa fa-book" style="font-size: 22px"></i>
-                    <span class="tabbar-label" style="font-size: 14px">Livros</span>
-                </a>
-                <a href="#" class="link">
-                    <i class="icon fa fa-list open-panel" style="font-size: 22px"></i>
-                    <span class="tabbar-label" style="font-size: 14px">Menu</span>
-                </a>
+
+        </div>
+      </div>
+    </div>
+          
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  <!-- Tab Mensagem - View 3 -->
+  <div id="tabEquipe" class="view tab">
+    <div class="navbar" style="background-color: #fff">
+      <div class="navbar-inner">
+        <div class="center">Equipe</div>
+      </div>
+    </div>
+    <div class="pages navbar-fixed">
+      <div data-page="home-3" class="page">
+        
+        <div class="page-content">
+
+      <div class="content-block">
+        <div class="content-block-title"><span class="ion-stop"></span> NOSSA EQUIPE</div>
+        <div class="content-block-inner">
+
+          <!-- FOTOS EQUIPE START -->
+          <div class="row">
+            <div class="col-33"><a href="#" data-picker=".picker-1" class="link open-picker"><img src="img/equipe_luis_babino.png" style="width:100%" /></a><br />Luis Babino
+            </div>
+            <div class="col-33"><a href="#" data-picker=".picker-2" class="link open-picker"><img src="img/equipe_ari_moura.png" style="width:100%" /></a><br />Aristogiton Moura
+            </div>
+            <div class="col-33"><a href="#" data-picker=".picker-3" class="link open-picker"><img src="img/equipe_javier_llinhares.png" style="width:100%" /></a><br />Javier Liinhares
             </div>
           </div>
+
+          <div class="row">
+            <div class="col-33"><a href="#" data-picker=".picker-4" class="link open-picker"><img src="img/equipe_cesar_caminha.png" style="width:100%" /></a><br />Cesar Caminha
+            </div>
+            <div class="col-33"><a href="#" data-picker=".picker-5" class="link open-picker"><img src="img/equipe_adriano_moura.png" style="width:100%" /></a><br />Adriano Moura
+            </div>
+            <div class="col-33"><a href="#" data-picker=".picker-6" class="link open-picker"><img src="img/equipe_silvia_guz.png" style="width:100%" /></a><br />Silvia Guz
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-33"><a href="#" data-picker=".picker-7" class="link open-picker"><img src="img/equipe_ana_carolina.png" style="width:100%" /></a><br />Ana Carolina
+            </div>
+            <div class="col-33"><a href="#" data-picker=".picker-8" class="link open-picker"><img src="img/equipe_irvin_herrera.png" style="width:100%" /></a><br />Irvin Herrera
+            </div>
+            <div class="col-33"><a href="#" data-picker=".picker-9" class="link open-picker"><img src="img/equipe_daniel_simoes.png" style="width:100%" /></a><br />Daniel Simões
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-33"><a href="#" data-picker=".picker-10" class="link open-picker"><img src="img/equipe_fernando_nacif.png" style="width:100%" /></a><br />Fernando Nacif
+            </div>
+            <div class="col-33"><a href="#" data-picker=".picker-11" class="link open-picker"><img src="img/equipe_luiz_vicenzotti.png" style="width:100%" /></a><br />Luiz Vicenzotti
+            </div>
+
+          </div>
+
+          <!-- FOTOS EQUIPE END -->
+
+
+
+          <!-- CARD 1 START -->
+
+          <div class="card" style="background-color:#E9E9E9">
+            <div class="card-content">
+              <div class="card-content-inner" style="color:#333; font-size:14px; font-weight:700; text-align:left">
+                <p>Nossa equipe (Strategia, Cigob e Autoritas) &eacute; formada por profissionais de diferentes disciplinas e pa&iacute;ses. Acreditamos que nossas equipes multidisciplinares, por oferecerem diferentes perspectivas sobre um tema ou problema, podem encontrar a melhor solu&ccedil;&atilde;o para os nossos clientes. Muitos parceiros e consultores nacionais e internacionais em Ci&ecirc;ncias e T&eacute;cnicas de Governo, foram formados por Carlos Matus e desenvolveram sua metodologia por meio de in&uacute;meros casos reais e as levaram tamb&eacute;m ao mundo digital globalizado que forma nossa rede mundial atual.</p>
+                <p>O Instituto Carlos Matus &eacute; representante exclusivo da Fundaci&oacute;n Altadir no Brasil e base do futuro sistema de forma&ccedil;&atilde;o e certifica&ccedil;&atilde;o em PES e C&amp;T,G e Escuta Inteligente da Internet.</p>
+                <p>Dentre os servi&ccedil;os e forma&ccedil;&atilde;o que oferecemos est&atilde;o: Prospectiva (Grande Estrat&eacute;gia), Planejamento Estrat&eacute;gico Situacional, Estudo de Atores, An&aacute;lise Estrat&eacute;gica, Reforma do Estado, Desenho e Moderniza&ccedil;&atilde;o de Organiza&ccedil;&otilde;es P&uacute;blicas e Sociais, Escuta Inteligente no &acirc;mbito digital, Reputa&ccedil;&atilde;o Online, Monitoramento de Reputa&ccedil;&atilde;o Online, Monitoramento de Social Media, Processamento de informa&ccedil;&otilde;es no territ&oacute;rio digital e em Intelig&ecirc;ncia de Campanhas Eleitorais. Possuimos tamb&eacute;m ampla experi&ecirc;ncia tecnol&oacute;gica em desenvolvimento de software para suporte a estes processos.</p>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 1 END -->
+
+        <a href="#tabParceiros" class="tab-link button button-big button-round" style="margin: 16px 0">Nossos Parceiros</a>
+
+    </div>
+
+  </div>
+
+
+</div>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  <!-- Tab Mensagem - View 4 -->
+  <div id="tabLivros" class="view tab">
+    <div class="navbar" style="background-color: #fff">
+      <div class="navbar-inner">
+        <div class="center">Livros</div>
+      </div>
+    </div>
+    <div class="pages navbar-fixed">
+      <div data-page="home-3" class="page">
+        
+         <div class="page-content">
+
+
+      <div class="content-block">
+        <div class="content-block-inner">
+
+          <div class="swiper-container swiper-init" data-speed="400" data-space-between="40" data-pagination=".swiper-pagination">
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-header">Cole&ccedil;&atilde;o Ci&ecirc;ncias e T&eacute;cnicas de Governo</div>
+                    <div class="card-content">
+                      <div class="card-content-inner"><img src="img/livro1.jpg" style="width:100%" />
+                        <p><span class="button color-pink">Esgotado</span></p>
+
+                      </div>
+                    </div>
+                    <div class="card-footer"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-header">Teoria do Jogo Social</div>
+                    <div class="card-content">
+                      <div class="card-content-inner"><img src="img/livro2.jpg" style="width:100%" />
+                        <p><span style="text-decoration: line-through;">R$120,00</span> R$100,00<br /></p>
+                      </div>
+                    </div>
+                    <div class="card-footer"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-header">O L&iacute;der sem Estado Maior</div>
+                    <div class="card-content">
+                      <div class="card-content-inner"><img src="img/livro3.jpg" style="width:100%" />
+                        <p><span class="button color-pink">Esgotado</span><br /></p>
+                      </div>
+                    </div>
+                    <div class="card-footer"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-header">Estrat&eacute;gias Pol&iacute;ticas - Chimpanz&eacute; Maquiavel Gandhi</div>
+                    <div class="card-content">
+                      <div class="card-content-inner"><img src="img/livro4.jpg" style="width:100%" />
+                        <p><span style="text-decoration: line-through;">R$85,00</span> R$70,00</p>
+                      </div>
+                    </div>
+                    <div class="card-footer"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-header">Adeus Sr Presidente - Governantes Governados</div>
+                    <div class="card-content">
+                      <div class="card-content-inner"><img src="img/livro5.jpg" style="width:100%" />
+                        <p><span style="text-decoration: line-through;">R$95,00</span> R$75,00</p>
+                      </div>
+                    </div>
+                    <div class="card-footer"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-header">Livro O Método PES</div>
+                    <div class="card-content">
+                      <div class="card-content-inner"><img src="img/livro6.jpg" style="width:100%" />
+                        <p><span class="button color-green">Best Seller</span> <span style="text-decoration: line-through;">R$70,00</span> R$55,00</p>
+                      </div>
+                    </div>
+                    <div class="card-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+      </div>
+
+      <p style="padding: 0 12px">Os livros do Prof. Carlos Matus sobre Ci&ecirc;ncias e T&eacute;cnicas de Governo s&atilde;o leituras indispens&aacute;veis para aqueles que atuam no &acirc;mbito pol&iacute;tico e de organiza&ccedil;&otilde;es p&uacute;blicas, privadas e sociais.</p>
+
+      <p style="padding: 0 12px">Os livros versam sobre os temas abordados pelas Ci&ecirc;ncias e T&eacute;cnicas de Governo, tais como Prospectiva, Planejamento Estrat&eacute;gico Situacional - PES, Estudo de Atores, An&aacute;lise Estrat&eacute;gica, Reforma do Estado, Desenho e Moderniza&ccedil;&atilde;o de Organiza&ccedil;&otilde;es P&uacute;blicas e sociais e Teoria do Jogo Social.</p>
+
+
+      <div class="card">
+        <div class="card-header" style="font-size:18px">Vendas <i class="fa fa-shopping-cart"></i></div>
+        <div class="card-content">
+            <div class="card-content-inner">Compre nossos livros online no site do Instituto Carlos Matus</div>
+        </div>
+    <div class="card-footer"><a href="http://www.institutocarlosmatus.com/" onclick="javascript:return openExternalLink(this)"><i class="fa fa-external-link" aria-hidden="true"></i> www.institutocarlosmatus.com/</a>
+    </div>
+</div>
+
+    </div>
+        
+      </div>
+    </div>
+  </div>
+ 
+ 
+ 
+ <!-- TABS EXTRAS --> 
+  
+  <!-- Tab Parceiros - View 5 -->
+  <div id="tabParceiros" class="view tab">
+    <div class="navbar" style="background-color: #fff">
+      <div class="navbar-inner">
+        <div class="center">Parceiros</div>
+      </div>
+    </div>
+    <div class="pages navbar-fixed">
+      <div data-page="home-3" class="page">
+        
+        <div class="page-content">
+
+      <div class="content-block">
+        <div class="content-block-title"><span class="ion-stop"></span> NOSSOS PARCEIROS</div>
+        <div class="content-block-inner">
+
+
+
+          <!-- CARDS START -->
+
+          <div class="card">
+            <div class="card-header"><img src="img/logo_strategia.png" style="width: 100%; height: auto" /></div>
+                  <div class="card-content">
+                    <div class="card-content-inner">
+                      <h3 style="font-weight: 900">Strategia Consultores</h3>
+                      <p>Empresa brasileira, n&atilde;o governamental, especializada em consultoria e assessoria direcionados para o aperfei&ccedil;oamento dos Sistemas de Alta Dire&ccedil;&atilde;o e a melhoria da Capacidade de Governo em todos aspectos. Atua tamb&eacute;m na Capacita&ccedil;&atilde;o, Treinamento, Pesquisa e Divulga&ccedil;&atilde;o das Ci&ecirc;ncias e T&eacute;cnicas de Governo &ndash; C&amp;TGe do Planejamento Estrat&eacute;gico Situacional &ndash; PES. Representante exclusiva no Brasil da Fundaci&oacute;n Altadir, criada por Carlos Matus.</p>
+                      <p>Com mais de 20 anos de experi&ecirc;ncia no mercado, vem aplicando os conhecimentos e ferramentas das C&amp;T de Governo em diversos &acirc;mbitos da administra&ccedil;&atilde;o p&uacute;blica (Municipal, Estadual e Federal), organiza&ccedil;&otilde;es p&uacute;blicas e privadas, partidos pol&iacute;ticos, campanhas eleitorais no Brasil e na Am&eacute;rica Latina.</p>
+                      <p>&Eacute; composta por profissionais de elevada especializa&ccedil;&atilde;o e qualidade nesse campo de atua&ccedil;&atilde;o e que contam com ampla experi&ecirc;ncia nacional e internacional em processos de moderniza&ccedil;&atilde;o e reforma de organiza&ccedil;&otilde;es p&uacute;blicas, sociais e privadas; suporte de intelig&ecirc;ncia estrat&eacute;gica &agrave; campanhas eleitorais e apoio &agrave; estrutura&ccedil;&atilde;o e moderniza&ccedil;&atilde;o de organiza&ccedil;&otilde;es sociais, mediante a aplica&ccedil;&atilde;o dos princ&iacute;pios b&aacute;sicos da Teoria do Jogo Social, Teoria das Macroorganiza&ccedil;&otilde;es e do Planejamento Estrat&eacute;gico Situacional - PES.</p>
+                      <p>Aporta os conhecimentos e ferramentas das Ci&ecirc;ncias e T&eacute;cnicas de Governo no &acirc;mbito digital com a Escuta Inteligente da Internet, oferecendo servi&ccedil;os de intelig&ecirc;ncia voltados para o &acirc;mbito da internet em parceria com a Autoritas Consulting.</p>
+                    </div>
+                  </div>
+                  <div class="card-footer"><a href="http://www.strategiaconsultores.com.br" onclick="javascript:return openExternalLink(this)"><i class="fa fa-external-link" aria-hidden="true"></i> www.strategiaconsultores.com.br</a>
+                  </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header"><img src="img/logo_autoritas.png" style="width: 100%; height: auto" /></div>
+                  <div class="card-content">
+                    <div class="card-content-inner">
+                      <h3 style="font-weight: 900">Autoritas Consulting</h3>
+                      <p>Empresa brasileira representante de uma holding espanhola especializada em gerar valor para empresas, pol&iacute;ticos, partidos pol&iacute;ticos e organiza&ccedil;&otilde;es p&uacute;blicas a partir do planejamento estrat&eacute;gico, da an&aacute;lise, monitoramento e atua&ccedil;&atilde;o sobre sua presen&ccedil;a digital no &acirc;mbito da internet e das redes sociais.</p>
+                      <p>Fornecemos Intelig&ecirc;ncia Estrat&eacute;gica e conhecimento sobre o novo entorno global. A partir de servi&ccedil;os de intelig&ecirc;ncia conseguimos extrair o sutil da internet. Colocando ordem no caos da internet, Big Data, extraindo o que aporta valor para nossos clientes, ajudando-os a entender e atuar dentro e fora da internet.</p>
+                      <p>Somos uma consultoria formada por profissionais de n&iacute;vel superior e doutores em diferentes disciplinas e pa&iacute;ses (engenheiros de computa&ccedil;&atilde;o, engenheiros de telecomunica&ccedil;&otilde;es, economistas, psic&oacute;logos, advogados, cientistas pol&iacute;ticos, linguistas e ge&oacute;grafos).</p>
+                      <p>Nossa sede central est&aacute; em Madri (Espanha) e temos escrit&oacute;rios na Argentina, Brasil, Chile, M&eacute;xico, e Panam&aacute;.</p>
+                    </div>
+                  </div>
+                  <div class="card-footer"><a href="http://www.strategiaconsultores.com.br" onclick="javascript:return openExternalLink(this)"><i class="fa fa-external-link" aria-hidden="true"></i> www.autoritas.net</a>
+                  </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header"><img src="img/logo_cigob.png" style="width: 100%; height: auto" /></div>
+                  <div class="card-content">
+                    <div class="card-content-inner">
+                      <h3 style="font-weight: 900">Fundaci&oacute;n CiGOB - Ciencias para Gobernar</h3>
+                      <p>Fundaci&oacute;n Desarrollo de Ciencias y M&eacute;todos de Gobierno, com sede na Argentina. Seu objetivo &eacute; fortalecer a a&ccedil;&atilde;o de governo, aportando metodologias e ferramentas para a tomada de decis&otilde;es em um entorno de crescente complexidade.</p>
+<p>&Eacute; uma organiza&ccedil;&atilde;o especializada na assist&ecirc;ncias ao desenho e gest&atilde;o de pol&iacute;ticas p&uacute;blicas, colaborando com as organiza&ccedil;&otilde;es p&uacute;blicas a n&iacute;vel local, provincial, nacional e internacional nos processos orientados &agrave; transforma&ccedil;&atilde;o da realidade, desenho de pol&iacute;ticas p&uacute;blicas, comunica&ccedil;&atilde;o estrat&eacute;gica e monitoramento as demandas da sociedade.</p>
+<p>Tamb&eacute;m se especializa em forma&ccedil;&atilde;o e treinamento de equipes de governo, brindando um suporte conceitual, metodol&oacute;gico e pr&aacute;tico para gerir pol&iacute;ticas p&uacute;blicas em um contexto de crescente complexidade e incerteza.</p>
+                    </div>
+                  </div>
+                  <div class="card-footer"><a href="http://www.cigob.org.br/" onclick="javascript:return openExternalLink(this)"><i class="fa fa-external-link" aria-hidden="true"></i> www.cigob.org.ar</a>
+                  </div>
+          </div>
+
+
+
+          <!-- CARDS END -->
+
+          <h2 style="margin: 16px 0">A Strategia Consultores, ao longo desses anos pode atuar e colaborar com diversas organiza&ccedil;&otilde;es locais, regionais, federais e latinoamericanas.</h2>
+
+
+          <a href="#tabEquipe" class="tab-link button button-big button-round" style="margin: 16px 0">Nossa Equipe</a>
+
+        </div>
+      </div>
+
+
+    </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  <!-- Tab Pos-graduacao - View ext1 -->
+  <div id="tabPosgraduacao" class="view tab">
+    <div class="navbar" style="background-color:#FFF">
+      <div class="navbar-inner">
+        <div class="left"><a href="#tabInicio" class="tab-link" style="font-size: 28px; color:#000;"><i class="icon fa fa-arrow-circle-left"></i></a></div>
+        <div class="center">P&oacute;s-Gradua&ccedil;&atilde;o</div>
+      </div>
+    </div>
+    <div class="pages navbar-fixed">
+      <div data-page="home-3" class="page">
+        <div class="page-content">
+
+      <div class="content-block-title"><span class="ion-stop"></span> Curso de P&oacute;s-Gradua&ccedil;&atilde;o <br />Latu Sensu<br />DIRE&Ccedil;&Atilde;O ESTRAT&Eacute;GICA E GOVERNO</div>
+
+      <div class="content-block">
+        <div class="content-block-inner">
+
+          <!-- CARD POSGRAD START -->
+          <div class="card" style="background-color:#333">
+            <div class="card-content">
+              <div class="card-content-inner" style="color:#fff; font-size:18px; font-weight:700; text-align:center">
+                <a href="https://www.youtube.com/watch?v=pypLnibWhdM" onclick="javascript:return openExternalFile(this)"><img src="img/video_posgraduacao.png" style="width: 100%; height: auto" /></a>
+              </div>
+            </div>
+          </div>
+
+            <p style="text-align: center; font-weight: 700">Inscri&ccedil;&otilde;es no site:</P>
+            <p style="text-align: center; font-weight: 900; font-size:16px"><a href="http://www.posuscs.com.br/" onclick="javascript:return openExternalLink(this)"><i class="fa fa-external-link" aria-hidden="true"></i> http://www.posuscs.com.br/</a></p>
+
+
+          <!-- CARD POSGRAD END -->
+
+          <p>&Eacute; com grande satisfa&ccedil;&atilde;o que o Instituto Carlos Matus em parceria com a Universidade de S&atilde;o Caetano do Sul com o apoio da Ag&ecirc;ncia de Desenvolvimento Econ&ocirc;mico do Grande ABC do Estado de S&atilde;o Paulo convidam para o do&nbsp;curso de P&oacute;s-Gradua&ccedil;&atilde;o Latu Sensu - "Dire&ccedil;&atilde;o&nbsp;Estrat&eacute;gica e Governo".&nbsp;</p>
+
+          <!-- ACCORDION POSGRAD START -->
+
+          <div class="list-block">
+            <ul>
+              <li class="accordion-item"><a href="#" class="item-content item-link">
+                  <div class="item-inner">
+                    <div class="item-title">Apresenta&ccedil;&atilde;o</div>
+                  </div></a>
+                <div class="accordion-item-content">
+                  <div class="content-block">
+
+                    <h3 class="destaque">O problema central, crise e capacidade de governo.&nbsp;</h3>
+                    <p>H&aacute; um div&oacute;rcio entre o que a sociedade e os cidad&atilde;os demandam da pol&iacute;tica e o que a pol&iacute;tica e os pol&iacute;ticos oferecem. Este n&atilde;o &eacute; s&oacute; um div&oacute;rcio causado por interesses opostos e car&ecirc;ncia de vontade. &Eacute; tamb&eacute;m um div&oacute;rcio entre a capacidade de governo e a complexidade dos problemas de governo e o produto de um abismo entre a pol&iacute;tica e as ci&ecirc;ncias sociais, entre a pr&aacute;tica e a teoria.</p>
+                    <p>A baixa capacidade de governo, que domina a pol&iacute;tica, &eacute; a baixa capacidade para processar os problemas reais. O imediatismo e a improvisa&ccedil;&atilde;o pol&iacute;tica, sob o pretexto da experi&ecirc;ncia, da arte e da intui&ccedil;&atilde;o, trabalham com mal-estares imprecisos e com solu&ccedil;&otilde;es preconcebidas, geralmente copiadas de outras experi&ecirc;ncias. O governante tradicional n&atilde;o trabalha com problemas. Trabalha com solu&ccedil;&otilde;es, mas a sociedade vive problemas.</p>
+                    <p>Por sua vez, estas defici&ecirc;ncias t&ecirc;m sua origem no distanciamento entre a pol&iacute;tica e as ci&ecirc;ncias, ou seja, entre a pr&aacute;tica e a teoria. Portanto, se faz urgente fundamentar a pol&iacute;tica pr&aacute;tica em uma nova disciplina transversal, que se pode chamar Ci&ecirc;ncias e T&eacute;cnicas de Governo, com o intuito de contribuir para elevar a capacidade de governo dos dirigentes e organiza&ccedil;&otilde;es; e tamb&eacute;m de modernizar a pol&iacute;tica para atuar no contexto altamente complexo em que vivemos.</p>
+                    <p>A arte da pol&iacute;tica e do governo sup&otilde;e dotes pessoais. Mas, em boa medida, tais dotes s&atilde;o potencialidades que podem ser desenvolvidas e alimentadas mediante o conhecimento de m&eacute;todos e t&eacute;cnicas apropriadas.</p>
+                    <p>Precisamente, este&nbsp;Curso&nbsp;de P&oacute;s-Gradua&ccedil;&atilde;o:&nbsp;Dire&ccedil;&atilde;o&nbsp;Estrat&eacute;gica e Governo se fundamenta na hip&oacute;tese de que &eacute; poss&iacute;vel estimular os dotes pessoais do dirigente pol&iacute;tico mediante a forma&ccedil;&atilde;o em Ci&ecirc;ncias e T&eacute;cnicas de Governo.</p>
+                    <p>Essa forma&ccedil;&atilde;o n&atilde;o pode substituir nem criar a dose de arte que requer a pol&iacute;tica, mas &eacute; um caminho para profissionalizar e potencializar a arte do pol&iacute;tico e melhorar a qualidade do extrato tecnopol&iacute;tico que lhe d&aacute; suporte.</p>
+
+                  </div>
+                </div>
+              </li>
+              <li class="accordion-item"><a href="#" class="item-content item-link">
+                  <div class="item-inner">
+                    <div class="item-title">Objetivo do curso</div>
+                  </div></a>
+                <div class="accordion-item-content">
+                  <div class="content-block">
+                    <p>Elevar a capacidade de governo de institui&ccedil;&otilde;es e organiza&ccedil;&otilde;es p&uacute;blicas, privadas e da sociedade civil, assim como de pol&iacute;ticos e dirigentes, com o aporte dos conhecimentos te&oacute;ricos, metodol&oacute;gicos e instrumentais das Ci&ecirc;ncias e T&eacute;cnicas de Governo.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="accordion-item"><a href="#" class="item-content item-link">
+                  <div class="item-inner">
+                    <div class="item-title">A quem se destina</div>
+                  </div></a>
+                <div class="accordion-item-content">
+                  <div class="content-block">
+                    <p>Dirigentes e gestores p&uacute;blicos, privados e de organiza&ccedil;&otilde;es da sociedade civil, consultores em Gest&atilde;o e Planejamento P&uacute;blico, lideran&ccedil;as pol&iacute;ticas e sociais e profissionais graduados em qualquer &aacute;rea.</p>
+                    <p>Segundo o professor Joaquim Celso Freire, respons&aacute;vel pela implementa&ccedil;&atilde;o do curso, a iniciativa se fundamenta na perspectiva de que &eacute; poss&iacute;vel estimular as habilidades pessoais do dirigente pol&iacute;tico, mediante a forma&ccedil;&atilde;o em Ci&ecirc;ncias e T&eacute;cnicas de Governo.</p>
+                    <p>&ldquo;O governante precisa de ferramentas para um melhor entendimento da realidade social e para que possa planejar e realizar a&ccedil;&otilde;es de pol&iacute;ticas p&uacute;blicas verdadeiramente capazes de elevar os padr&otilde;es de seguran&ccedil;a, sa&uacute;de, educa&ccedil;&atilde;o, mobilidade e demais anseios da popula&ccedil;&atilde;o, gastando menos e fazendo mais&rdquo;, afirma.</p>
+                    <p>Para Aristogiton Moura, presidente do Instituto Carlos Matus e parceiro neste empreendimento, a USCS se coloca na dianteira do processo de moderniza&ccedil;&atilde;o do estado, da m&aacute;quina p&uacute;blica e da nova elite requerida para modernizar a forma de fazer governo e governar no Brasil e na Am&eacute;rica Latina. &ldquo;Os &uacute;ltimos acontecimentos pol&iacute;ticos t&ecirc;m mostrado que a estrutura estatal j&aacute; n&atilde;o responde &agrave;s necessidades da sociedade em termos de condu&ccedil;&atilde;o pol&iacute;tica estrat&eacute;gica e promotora do desenvolvimento e bem-estar social. Enfrentar a crise que est&aacute; contaminando o nosso dia-a-dia e afetando nosso futuro depende de novos conhecimentos e novas pr&aacute;ticas que nos reconduzam ao caminho da estabilidade e da tranquilidade social. A forma&ccedil;&atilde;o em Ci&ecirc;ncias e T&eacute;cnicas de Governo, pela USCS, &eacute; o que de mais moderno e eficiente pode ser encontrado para esse fim&rdquo;.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="accordion-item"><a href="#" class="item-content item-link">
+                  <div class="item-inner">
+                    <div class="item-title">M&oacute;dulos</div>
+                  </div></a>
+                <div class="accordion-item-content">
+                  <div class="content-block">
+                    <ol>
+                      <li>
+                      <p>Moderniza&ccedil;&atilde;o e reforma da gest&atilde;o p&uacute;blica;</p>
+                      </li>
+                      <li>
+                      <p>Planejamento estrat&eacute;gico moderno;</p>
+                      </li>
+                      <li>
+                      <p>Sistemas de&nbsp;dire&ccedil;&atilde;o&nbsp;estrat&eacute;gica; e</p>
+                      </li>
+                      <li>
+                      <p>Gest&atilde;o e resultados.</p>
+                      </li>
+                    </ol>
+                    <p>Cada um deles &eacute; composto por v&aacute;rias disciplinas, totalizando 480 horas, sendo 360h presenciais e 120h como trabalho de conclus&atilde;o de&nbsp;curso.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- ACCORDION POSGRAD END -->
+
+
+
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  
+
+  
+  
+  
+  
+  <!-- Tab bar with tab links -->
+  <div class="toolbar tabbar" style="background-color:#FFF;">
+    <div class="toolbar-inner" style=" padding: 2px 0">
+      <a href="#tabInicio" class="tab-link active">
+      <i class="icon fa fa-home" style="font-size: 18px; color: #999; height: 18px; margin-bottom: 1px;"></i>
+      <span class="tabbar-label" style="font-size: 10px; color: #999; margin:0;">In&iacute;cio</span>
+      </a>
+      <a href="#tabIcmatus" class="tab-link">
+      <i class="icon fa fa-institution" style="font-size: 18px; color: #999; height: 18px; margin-bottom: 1px;"></i>
+      <span class="tabbar-label" style="font-size: 10px; color: #999; margin:0;">ICMatus</span>
+      </a>
+      <a href="#tabEquipe" class="tab-link">
+      <i class="icon fa fa-users" style="font-size: 18px; color: #999; height: 18px; margin-bottom: 1px;"></i>
+      <span class="tabbar-label" style="font-size: 10px; color: #999; margin:0;">Equipe</span>
+      </a>
+      <a href="#tabLivros" class="tab-link">
+      <i class="icon fa fa-book" style="font-size: 18px; color: #999; height: 18px; margin-bottom: 1px;"></i>
+      <span class="tabbar-label" style="font-size: 10px; color: #999; margin:0;">Livros</span>
+      </a>
+      <a href="#" class="tab-link open-panel">
+      <i class="icon fa fa-list open-panel" style="font-size: 18px; color: #999; height: 18px; margin-bottom: 1px;"></i>
+      <span class="tabbar-label" style="font-size: 10px; color: #999; margin:0;">Menu</span>
+      </a>
+    </div>
+  </div>
+      
+
+
+<!-- TABS end -->
+
+
+
 
 
 
